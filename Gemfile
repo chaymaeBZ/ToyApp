@@ -38,9 +38,7 @@ gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-group :production do
-  gem 'pg'
-end
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
