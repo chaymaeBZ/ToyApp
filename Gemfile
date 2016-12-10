@@ -7,6 +7,7 @@ gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 
 
 # Use Omniauth
+gem 'omniauth'
 gem 'omniauth-twitter'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
